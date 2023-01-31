@@ -8,8 +8,8 @@ Debug repository for https://github.com/prisma/prisma/issues/17558
 
 - Follow [quickstart](https://www.prisma.io/docs/getting-started/quickstart) guide steps 1-3:
   - ```
-    npm install typescript ts-node @types/node --save-dev
     npm init -y
+    npm install typescript ts-node @types/node --save-dev
     npx tsc --init
     npm install prisma --save-dev
     npx prisma init --datasource-provider sqlite
